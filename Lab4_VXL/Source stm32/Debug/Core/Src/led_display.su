@@ -1,0 +1,11 @@
+led_display.c:23:6:TurnOffMultiplex	8	static
+led_display.c:28:6:TurnOffMultiplex_mode	8	static
+led_display.c:33:6:DisplayMultiplex	8	static
+led_display.c:43:6:DisplayMultiplex_mode	8	static
+led_display.c:53:6:DisplayDigit	24	static
+led_display.c:98:6:DisplayDigit_mode	24	static
+led_display.c:145:6:resetTrafficTime	16	static
+led_display.c:152:6:updateTrafficTime	8	static
+led_display.c:173:6:updateTrafficLight_main	16	static
+led_display.c:196:6:updateTrafficLight_sub	16	static
+led_display.c:219:6:Led_Blinky	8	static
