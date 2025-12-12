@@ -15,7 +15,8 @@ Dự án được tổ chức theo tiêu chuẩn thiết kế phần cứng:
 Sobel_Edge_Project/
 │
 ├── 📂 rtl/                 # Mã nguồn Verilog (Register Transfer Level)
-│   └── sobel_operator.v    # Module chính: Tính toán Sobel & Thresholding
+│   ├── sobel_core.v    # Module chính: Tính toán Sobel & Thresholding
+│   └── tb_sobel.v
 │
 ├── 📂 scripts/             # Các công cụ hỗ trợ (Python)
 │   ├── convert_to_hex.py   # Chuyển ảnh -> image_data.hex
@@ -26,6 +27,10 @@ Sobel_Edge_Project/
 │   ├── run.bat     # Script tự động chạy toàn bộ quy trình
 │   └── (Các file tạm như .hex, .out sẽ được sinh ra tại đây)
 │
-└── 📂 docs/                # Tài liệu báo cáo & tham khảo
-    ├── DATKLL_251.pdf
-    └── DATKLL_Sobel_Edge_Detection_Final.pdf
+│── 📂 docs/                # Tài liệu báo cáo & tham khảo
+│    ├── DATKLL_251.pdf
+│    └── DATKLL_Sobel_Edge_Detection_Final.pdf
+│
+│── run_comparation.bat
+|
+└── input.jpeg
